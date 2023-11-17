@@ -35,9 +35,10 @@ getDataType({})
 
 
 // программа №4
-var btnPlus = document.getElementById('btnPlus')
-var btnMinus = document.getElementById('btnMinus')
-var input = document.getElementById('input')
+
+var btnPlus = document.querySelector('#btnPlus')
+var btnMinus = document.querySelector('#btnMinus')
+var input = document.querySelector('#input')
 
 btnPlus.addEventListener('click', () => {
     input.value++
